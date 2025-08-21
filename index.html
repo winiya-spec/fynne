@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AVANTE LUX - Timeless Luggage</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Pretendard 한글 본문용 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  
+
+
+
+  
+</head>
+
+<body>
+<section class="hero">
+  <div class="hero-wrapper">
+    <nav class="hero-category">
+      <ul>
+        <li><a href="index.html">FYNNE</a></li>
+        <li><a href="intro.html">About</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="Contact.html">Contact & Support</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- 슬라이드 영역 -->
+  <div class="swiper hero-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./images/COL_1.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/COL_2.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/sss.png" alt=""></div>
+    </div>
+  </div>
+
+  <div class="hero-inner">
+    <h1>FYNNE Collection</h1>
+    <p>Timeless Design for Discerning Travelers</p>
+    <a href="#products" class="btn">Explore Collection</a>
+  </div>
+</section>
+
+
+<script>
+  const heroSwiper = new Swiper('.hero-swiper', {
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    loop: true,
+    speed: 1000,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    }
+  });
+</script>
+
+
+<!-- 비디오 (페이지 전체 배경) -->
+  <div class="video-container">
+    <video id="bg-video" autoplay muted loop playsinline>
+      <source src="./video/sky-4.mp4" type="video/mp4" />
+    </video>
+   <!--  <img src="./images/paran1.png" alt="Cloud Overlay" class="fix_u" /> -->
+    <img src="./images/paran1.png" alt="Cloud Overlay" class="fix_u_1" />
+  </div>
+
+
+<!-- 브랜드 스토리 섹션 -->
+<section class="brand-story">
+  <div class="container">
+    <div class="image" data-aos="fade-right" data-aos-duration="1500" >
+      <img src="./images/travel2.png" alt="Person" id="person" />
+    </div>
+    <div class="text-wrapper">
+      <div class="text" data-aos="fade-left" data-aos-duration="1500" >
+        <h2>More Than a Luggage</h2>
+        <p>AVANTE LUX는 단순한 여행도구가 아닌,<br> 삶의 태도와 감각을 담는 오브제입니다.<br><br>
+          유니크한 디자인, 정제된 소재, 시대를 초월한 가치는<br> 당신의 모든 여정에 특별함을 더합니다.
+        </p>
+        <p>
+          FYNNE is more than just luggage.
+          It is a premium carrier crafted with perfect details, exceptional quality, and masterful craftsmanship.
+          Inspired by the word ‘Fine,’ FYNNE elevates your journey with refined elegance.
+          Blending urban modernity with the freedom of nature, it ensures you never lose your unique style wherever you go.
+          With FYNNE, every trip becomes not just a move, but a journey of distinction.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="image1"  >
+    <div><img src="./images/FYNNE_LOGO.png" alt="Luxury Detail" width="200"></div>
+  </div>
+</section>
+
+
+<section class="products" id="products" data-aos="fade-up" data-aos-duration="1200">
+  <h2>Signature Collection</h2>
+  <div class="grid">
+    <div class="card" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
+      <img src="./images/lug-1.png" alt="VALENTIA Black">
+      <p>Elysian Crest</p>
+    </div>
+    <div class="card" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800">
+      <img src="./images/pre16.png" alt="ROMA Silver">
+      <p>ROMA Check</p>
+    </div>
+    <div class="card" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="800">
+      <img src="./images/pre3.png" alt="GENOVA Gold">
+      <p>Vespera Luxe</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="customer-reviews" data-aos="fade-up" data-aos-duration="1200">
+  <div class="container">
+    <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">What Our Customers Say</h2>
+    <div class="reviews-grid">
+      
+      <article class="review-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="김지수" class="review-photo" />
+        <div class="review-content">
+          <p class="review-text">"AVANTE LUX의 품질과 디자인은 정말 최고입니다. 여행할 때마다 특별한 기분이 들어요."</p>
+          <p class="reviewer">— 김지수</p>
+        </div>
+      </article>
+
+      <article class="review-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="박민수" class="review-photo" />
+        <div class="review-content">
+          <p class="review-text">"튼튼하고 스타일리시하며 실용적입니다. 비즈니스 출장에 완벽한 캐리어예요."</p>
+          <p class="reviewer">— Harry</p>
+        </div>
+      </article>
+
+      <article class="review-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="이은영" class="review-photo" />
+        <div class="review-content">
+          <p class="review-text">"섬세한 디테일과 프리미엄 소재 덕분에 여행 동반자로서 믿음직합니다."</p>
+          <p class="reviewer">— Risa</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Brand Philosophy Section -->
+<section class="brand-philosophy" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+  <div class="philosophy-inner" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+    <h2>More Than Travel</h2>
+    <p>
+     FYNNE은 단순한 수하물을 넘어서,<br>
+      여행의 순간을 기억하는 감성의 동반자를 만듭니다.<br><br>
+      디자인, 소재, 그리고 장인정신.<br>
+      AVANTE LUX는 당신의 여정을 위한 예술입니다.
+    </p>
+  </div>
+  <div class="philosophy-cards">
+    <div class="philosophy-card" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
+      <h3>Timeless Design</h3>
+      <p>유행을 따르지 않고, 오랜 시간 사랑받는<br> 디자인</p>
+    </div>
+    <div class="philosophy-card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
+      <h3>Craftsmanship</h3>
+      <p>장인들의 손길로 완성된 고급 수제 품질과<br> 디테일</p>
+    </div>
+    <div class="philosophy-card" data-aos="fade-left" data-aos-delay="700" data-aos-duration="900">
+      <h3>Beyond Utility</h3>
+      <p>단순한 기능을 넘어 감성과 이야기를 담은<br> 캐리어</p>
+    </div>
+  </div>
+</section>
+
+<section class="brand-quote" style="display:flex;justify-content:flex-end;background:#fff;" 
+         data-aos="fade-left" data-aos-duration="1200" data-aos-delay="900">
+  <div style="max-width:50%;padding:4rem 3rem;" class="brtext">
+    <h2 style="font-family:'TheSeasons',serif;font-size:2rem;color:#1a2b15;margin-bottom:1.5rem;margin-right:15em;">
+      Brand Philosophy
+    </h2>
+    <blockquote style="font-size:1.3rem;font-style:italic;color:#444;border-left:4px solid #2e4735;padding-left:1rem;">
+      "우리는 단지 짐을 담는 가방이 아니라,<br>
+      기억을 담는 공간을 만든다."
+    </blockquote>
+    <p style="margin-top:1rem;font-size:1rem;color:#777;">–FYNNE Philosophy</p>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="custom-service" data-aos="fade-up" data-aos-duration="1200">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">당신만의 캐리어를 만드세요</h2>
+    <p class="section-subtitle" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">FYNNE은 고객의 취향과 스토리를 담은 맞춤형 서비스를 제공합니다.</p>
+
+    <div class="custom-options">
+      <div class="custom-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+        <img src="./images/sser-2.png" alt="각인 서비스 아이콘" />
+        <h3>이니셜 각인</h3>
+        <p>고객님의 이름이나 이니셜을 캐리어에 새겨, 세상에 하나뿐인 여행 파트너를 만듭니다.</p>
+      </div>
+      <div class="custom-card" data-aos="fade-up" data-aos-delay="450" data-aos-duration="800">
+        <img src="./images/sser-3.png" alt="컬러 선택 아이콘" />
+        <h3>컬러 & 소재 선택</h3>
+        <p>원하는 컬러와 소재를 선택하여, 개성과 품격을 동시에 표현할 수 있습니다.</p>
+      </div>
+      <div class="custom-card" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+        <img src="./images/sser-1.png" alt="패키징 아이콘" />
+        <h3>럭셔리 패키징</h3>
+        <p>선물용 또는 프라이빗 배송 시, 특별한 포장을 통해 감동을 더합니다.</p>
+      </div>
+      <div class="custom-card" data-aos="fade-up" data-aos-delay="750" data-aos-duration="800">
+        <img src="./images/sser-4.png" alt="리미티드 아이콘" />
+        <h3>리미티드 에디션</h3>
+        <p>FYNNE만의 스페셜 리미티드 라인을 선택할 수 있는 기회를 드립니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="material-process" data-aos="fade-up" data-aos-duration="1200">
+  <div class="container">
+    <div class="process-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+      <h2 class="section-title">프리미엄은 소재에서 시작됩니다</h2>
+      <p class="section-desc">
+        FYNNE 캐리어는 이탈리아산 천연가죽, 항공기 등급 알루미늄,  
+        최고급 폴리카보네이트 등 세계적 품질의 소재로 제작됩니다.  
+        모든 공정은 장인의 손길로, 하나하나 정성을 담아 완성됩니다.
+      </p>
+
+      <ul class="material-list">
+        <li><strong>이탈리아 천연가죽:</strong> 촉감과 내구성을 동시에 만족</li>
+        <li><strong>항공기용 알루미늄:</strong> 강하면서도 놀라운 경량성</li>
+        <li><strong>수작업 마감:</strong> 40단계에 걸친 핸드메이드 공정</li>
+      </ul>
+    </div>
+
+    <div class="process-video" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+      <video src="./video/fyn_v.mp4" autoplay muted loop playsinline></video>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<div class="pro_img" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+  <img src="./images/bg_img7.png" alt="">
+</div>
+
+<section class="celeb-endorsement-section">
+  <div class="celeb-endorsement-header" data-aos="fade-down" data-aos-duration="800">
+    <h2>Endorsed by Icons</h2>
+    <p>세계의 셀럽들이 선택한 단 하나의 럭셔리 캐리어</p>
+  </div>
+
+  <div class="celeb-cards" data-aos="fade-up" data-aos-duration="800">
+    
+    <!-- 셀럽 카드 1 -->
+    <div class="celeb-card-wrapper">
+      <div class="celeb-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="celeb-img" style="background-image: url('./images/pre.png');"></div>
+            <div class="celeb-quote">
+              <p class="quote">“이 캐리어는 나의 여정을 더 특별하게 만들어 줍니다.”</p>
+              <p class="celeb-name">– Lara M., Global Fashion Influencer</p>
+              <p class="model-used">사용 모델: <strong>Sable Lumière"</strong></p>
+            </div>
+          </div>
+          <div class="card-back" style="background-image: url('./images/rever_1.png');">
+            <div class="back-inner">
+              <p>“스타일과 내구성 모두 완벽합니다.”</p>
+              <p class="celeb-name">– Lara M.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="purchase-button-wrapper">
+        <a href="#purchase-section" class="purchase-button">구매하기</a>
+      </div>
+    </div>
+
+    <!-- 셀럽 카드 2 -->
+    <div class="celeb-card-wrapper">
+      <div class="celeb-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="celeb-img" style="background-image: url('./images/pre1.png');"></div>
+            <div class="celeb-quote">
+              <p class="quote">“기내에서조차 시선을 사로잡는 존재감, 완벽자체.”</p>
+              <p class="celeb-name">– Marco L., Hollywood Cinematographer</p>
+              <p class="model-used">사용 모델: <strong>VANTAGGIO Carry-On</strong></p>
+            </div>
+          </div>
+          <div class="card-back" style="background-image: url('./images/rever_2.png');">
+            <div class="back-inner">
+              <p>“내 여행에 필수품이 되었습니다.”</p>
+              <p class="celeb-name">– Marco L.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="purchase-button-wrapper">
+        <a href="#purchase-section" class="purchase-button">구매하기</a>
+      </div>
+    </div>
+
+    <!-- 셀럽 카드 3 -->
+    <div class="celeb-card-wrapper">
+      <div class="celeb-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="celeb-img" style="background-image: url('./images/pre2.png');"></div>
+            <div class="celeb-quote">
+              <p class="quote">“디자인과 실용성 모두 갖춘, 진정한 럭셔리의 상징.”</p>
+              <p class="celeb-name">– Elise K., Michelin Star Chef</p>
+              <p class="model-used">사용 모델: <strong>MONARCH Classic 28"</strong></p>
+            </div>
+          </div>
+          <div class="card-back" style="background-image: url('./images/rever_3.png');">
+            <div class="back-inner">
+              <p>“완벽한 품질과 세련됨이 돋보입니다.”</p>
+              <p class="celeb-name">– Elise K.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="purchase-button-wrapper">
+        <a href="#purchase-section" class="purchase-button">구매하기</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!--제품구분 -->
+
+<section class="category-guide-section" data-aos="fade-up" data-aos-duration="1000">
+  <h2>당신에게 맞는 캐리어는?</h2>
+  <div class="category-columns">
+    <div class="category-box" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
+      <h3>기내용 캐리어</h3>
+      <p>20~22인치, 짧은 여행이나 출장에 적합</p>
+    </div>
+    <div class="category-box" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+      <h3>중형/장거리용</h3>
+      <p>24~26인치, 유럽·동남아 등 5~7일 여행</p>
+    </div>
+    <div class="category-box" data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
+      <h3>대형/가족여행</h3>
+      <p>28인치 이상, 장기여행 혹은 가족 짐 공유</p>
+    </div>
+  </div>
+</section>
+
+<div class="ccc" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">
+  <img src="./images/ccc-1.png" alt="">
+  <img src="./images/ccc-2.png" alt="">
+  <img src="./images/ccc-3.png" alt="">
+</div>
+
+
+
+<!-- <section class="track-layout-section">
+  <div class="track-container">
+    <h2 class="track-title">어떤 캐리어를 찾고 계신가요?</h2>
+    <div class="track-row">
+      <div class="track-item">
+        <span class="track-label">01</span>
+        <h3>기내용 캐리어</h3>
+        <p>간편한 이동과 기내 반입이 가능한 슬림형 디자인</p>
+      </div>
+      <div class="track-item">
+        <span class="track-label">02</span>
+        <h3>중형 캐리어</h3>
+        <p>5~7일 여행에 최적화된 넉넉한 수납공간</p>
+      </div>
+      <div class="track-item">
+        <span class="track-label">03</span>
+        <h3>대형 캐리어</h3>
+        <p>장거리 여행 또는 가족 짐까지 여유 있게 수용</p>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+
+
+
+
+
+
+<!-- <section class="circle-guide">
+  <h2>어떤 여행자이신가요?</h2>
+  <div class="circle-types">
+    <div class="type">
+      <div class="icon">✈️</div>
+      <p>해외 여행자</p>
+    </div>
+    <div class="type">
+      <div class="icon">🧳</div>
+      <p>장기 출장자</p>
+    </div>
+    <div class="type">
+      <div class="icon">👜</div>
+      <p>패션 중시</p>
+    </div>
+    <div class="type">
+      <div class="icon">👨‍👩‍👧</div>
+      <p>가족 여행자</p>
+    </div>
+  </div>
+</section>
+
+ -->
+
+
+
+<section class="product-guide-split" data-aos="fade-up" data-aos-duration="1200">
+  <div class="container">
+    <div class="guide-grid">
+      <div class="guide-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
+        <h2 class="guide-title">개성 만점 당신만을 위한 선택</h2>
+        <p class="guide-desc">
+          여행의 스타일은 사람마다 다릅니다.  
+          기능, 사이즈, 디자인까지 <br> 
+          다양한 기준으로 선택할 수 있습니다.
+        </p>
+      </div>
+
+      <div class="guide-right" data-aos="fade-left" data-aos-delay="400" data-aos-duration="900">
+        <ul class="type-list">
+          <li># 출장이 많은 비즈니스맨</li>
+          <li># 장거리 여행자</li>
+          <li># 기내 반입 우선</li>
+          <li># 대용량 수납 선호</li>
+          <li># 스타일 중시</li>
+          <li># 가족 단위 여행자</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- 라인업 -->
+
+
+<section class="product-lineup-section" data-aos="fade-up" data-aos-duration="1200">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Our Premium Product Lineup</h2>
+    <p class="section-subtitle" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">다양한 럭셔리 캐리어 모델을 만나보세요.</p>
+
+    <div class="product-cards">
+      <!-- 제품 1 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
+        <div class="product-img" style="background-image: url('./images/pre7.png');"></div>
+        <h3 class="product-name">HARACE Check 24"</h3>
+        <p class="product-desc">가벼우면서도 내구성 뛰어난 트롤리 캐리어.</p>
+        <p class="product-price">₩1,200,000</p>
+        <a href="#purchase-section" class="btn-buy">구매하기</a>
+      </div>
+
+      <!-- 제품 2 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="450" data-aos-duration="900">
+        <div class="product-img" style="background-image: url('./images/pre15.png');"></div>
+        <h3 class="product-name">VENNIS Carry-On</h3>
+        <p class="product-desc">기내 반입 사이즈, 완벽한 스타일과 편리성.</p>
+        <p class="product-price">₩950,000</p>
+        <a href="#purchase-section" class="btn-buy">구매하기</a>
+      </div>
+
+      <!-- 제품 3 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="600" data-aos-duration="900">
+        <div class="product-img" style="background-image: url('./images/pre12.png');"></div>
+        <h3 class="product-name">MONARCH Classic 28"</h3>
+        <p class="product-desc">클래식한 디자인과 넉넉한 수납 공간.</p>
+        <p class="product-price">₩1,500,000</p>
+        <a href="#purchase-section" class="btn-buy">구매하기</a>
+      </div>
+
+      <!-- 제품 4 -->
+      <div class="product-card" data-aos="fade-up" data-aos-delay="750" data-aos-duration="900">
+        <div class="product-img" style="background-image: url('../images/pre14.png');"></div>
+        <h3 class="product-name">ELITE Explorer 30"</h3>
+        <p class="product-desc">최신 기술과 고급 소재로 완성된 프리미엄 모델.</p>
+        <p class="product-price">₩1,800,000</p>
+        <a href="#purchase-section" class="btn-buy">구매하기</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!--이벤트 -->
+
+<section class="promo-gradient-section" data-aos="fade-up" data-aos-duration="1200">
+  <div class="promo-gradient-header" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+    <h2 class="section-title">한정 프로모션 & 스페셜 오퍼</h2>
+    <p class="section-subtitle">당신의 여행을 더욱 특별하게 만들어줄 스페셜 이벤트를 경험해보세요.</p>
+  </div>
+
+  <div class="promo-gradient-container">
+    <div class="promo-gradient-card" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
+      <h2>Limited Edition Release</h2>
+      <p>지금만 누릴 수 있는 특별한 혜택과 함께</p>
+      <a href="#purchase-section" class="btn-gradient">자세히 보기</a>
+    </div>
+    <div class="promo-gradient-card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
+      <h2>Summer Sale Event</h2>
+      <p>고급 캐리어 최대 15% 할인, 기간 한정</p>
+      <a href="#purchase-section" class="btn-gradient">지금 구매하기</a>
+    </div>
+    <div class="promo-gradient-card" data-aos="fade-left" data-aos-delay="700" data-aos-duration="900">
+      <h2>Exclusive Member Benefits</h2>
+      <p>회원 전용 특별 서비스 및 할인 쿠폰 제공</p>
+      <a href="#purchase-section" class="btn-gradient">회원가입 하러가기</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="premium-service-split">
+  <div class="container split-container">
+    <div class="split-image" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+      <img src="./images/cons1.png" alt="Luxury Service" />
+    </div>
+    <div class="split-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+      <h2>Experience Personalized Luxury</h2>
+      <p>1:1 맞춤 컨시어지 서비스부터 전용 보증까지, 당신만을 위한 특별한 혜택을 제공합니다.</p>
+      <a href="#contact" class="btn">지금 상담 신청하기</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!--서비스 혜택 -->
+
+<!-- 
+<section class="service-benefits-section">
+  <div class="container">
+    <h2 class="section-title">서비스 및 혜택 안내</h2>
+    <p class="section-subtitle">럭셔리 캐리어 구매 시 누릴 수 있는 특별한 혜택을 만나보세요.</p>
+    <div class="benefits-cards">
+      <div class="benefit-card">
+        <div class="icon">🚚</div>
+        <h3>무료 배송</h3>
+        <p>전 제품 무료 전국 배송으로 편리하게 받아보세요.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">🔧</div>
+        <h3>A/S 정책</h3>
+        <p>전문 엔지니어가 1년간 무상 수리 서비스를 제공합니다.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">🛡️</div>
+        <h3>보증기간</h3>
+        <p>최대 3년까지 확장 가능한 품질 보증으로 안심 구매.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="icon">💎</div>
+        <h3>멤버십 혜택</h3>
+        <p>멤버십 가입 시 특별 할인과 한정 이벤트 초대권 제공.</p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+
+
+<section class="service-benefits-alt-section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-down" data-aos-duration="800">서비스 및 혜택 안내</h2>
+    <p class="section-subtitle" data-aos="fade-down" data-aos-duration="800" data-aos-delay="150">럭셔리 캐리어 구매 시 누릴 수 있는 특별한 혜택을 만나보세요.</p>
+    
+    <div class="benefits-list">
+      <div class="benefit-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+        <div class="icon-circle">🚚</div>
+        <div class="benefit-text">
+          <h3>무료 배송</h3>
+          <p>전 제품 무료 전국 배송으로 편리하게 받아보세요.</p>
+        </div>
+      </div>
+      <div class="benefit-item" data-aos="fade-up" data-aos-delay="350" data-aos-duration="800">
+        <div class="icon-circle">🔧</div>
+        <div class="benefit-text">
+          <h3>A/S 정책</h3>
+          <p>전문 엔지니어가 1년간 무상 수리 서비스를 제공합니다.</p>
+        </div>
+      </div>
+      <div class="benefit-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+        <div class="icon-circle">🛡️</div>
+        <div class="benefit-text">
+          <h3>보증기간</h3>
+          <p>최대 3년까지 확장 가능한 품질 보증으로 안심 구매.</p>
+        </div>
+      </div>
+      <div class="benefit-item" data-aos="fade-up" data-aos-delay="650" data-aos-duration="800">
+        <div class="icon-circle">💎</div>
+        <div class="benefit-text">
+          <h3>멤버십 혜택</h3>
+          <p>멤버십 가입 시 특별 할인과 한정 이벤트 초대권 제공.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- <section class="testimonial-quote-section">
+  <div class="container">
+    <h2 class="section-title">고객의 목소리</h2>
+    <p class="section-subtitle">럭셔리 캐리어를 경험한 진심 어린 평가</p>
+    <div class="testimonial-quote-wrapper">
+      <blockquote class="testimonial-quote">
+        <p>“이 캐리어는 여행의 품격을 한 단계 높여주었습니다. 무게도 가볍고 디자인도 세련됐어요.”</p>
+        <footer>— 김수현</footer>
+      </blockquote>
+      <blockquote class="testimonial-quote">
+        <p>“튼튼하고 세련된 캐리어 덕분에 매번 여행이 즐거워졌습니다. 정말 추천합니다!”</p>
+        <footer>— 이지은</footer>
+      </blockquote>
+      <blockquote class="testimonial-quote">
+        <p>“멤버십 혜택과 서비스가 탁월해 재구매 의사가 확실해졌습니다.”</p>
+        <footer>— 박민재</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+ -->
+
+
+
+
+
+
+
+
+ 
+
+
+
+<section class="travel-magazine">
+  <div class="container">
+    <div class="magazine-grid">
+      <div class="magazine-title" data-aos="fade-right" data-aos-delay="100">
+        <h2>TRAVEL ESSENTIALS</h2>
+        <p>여행을 더 스마트하게 만드는<br>꿀팁과 정보</p>
+      </div>
+      <div class="magazine-items">
+        <div class="magazine-item" onclick="toggleContent(this)" data-aos="fade-up" data-aos-delay="200">
+          <h3>✈️ 항공편 꿀팁 <span class="toggle-icon">▶️</span></h3>
+          <p class="brief">비수기 항공권 예매 시점과 환승 노하우를 정리했습니다.</p>
+          <div class="detail-content">
+            <div class="divider-line"></div> 
+            <ul>
+              <li>📅 가장 저렴한 요일은 화요일 & 수요일</li>
+              <li>🌍 유럽 환승 시, 공항 라운지 체크</li>
+              <li>📱 스카이스캐너 & 구글플라이트 활용법</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="magazine-item" onclick="toggleContent(this)" data-aos="fade-up" data-aos-delay="300">
+          <h3>🧳 짐 싸기 체크 <span class="toggle-icon">▶️</span></h3>
+          <p class="brief">무게 제한을 피하는 실용적인 짐 싸기 팁을 알려드려요.</p>
+          <div class="detail-content">
+            <div class="divider-line"></div> 
+            <ul>
+              <li>🎒 3단계 분류: 꼭필요 / 편리 / 여유</li>
+              <li>👕 말아서 넣기: 공간 절약 & 구김 방지</li>
+              <li>📦 미리 무게 측정하는 휴대용 저울</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="magazine-item" onclick="toggleContent(this)" data-aos="fade-up" data-aos-delay="400">
+          <h3>📱 여행앱 추천 <span class="toggle-icon">▶️</span></h3>
+          <p class="brief">언어 번역, 지도, 환율, 날씨까지 다 되는 필수 앱 5선.</p>
+          <div class="detail-content">
+            <div class="divider-line"></div> 
+            <ul>
+              <li>🗺️ Google Maps + Rome2Rio</li>
+              <li>🧭 TripIt 일정 정리 앱</li>
+              <li>🔁 XE Currency & Naver Papago</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="info_tip">
+  <!-- 1. Flight Status -->
+  <div class="flight-status" data-aos="fade-up" data-aos-delay="100">
+    <h3>실시간 항공편 상태 확인</h3>
+    <form id="flightSearchForm">
+      <input type="text" placeholder="출발지 (예: ICN)" required />
+      <input type="text" placeholder="도착지 (예: JFK)" required />
+      <button type="submit">검색</button>
+    </form>
+    <div class="flight-results" data-aos="fade-in" data-aos-delay="300">
+      <!-- 결과 카드 예시 -->
+      <div class="flight-card">
+        <div class="flight-info">
+          <p><strong>KE001</strong> 대한항공</p>
+          <p>출발: 10:30 / 도착: 15:20</p>
+          <p class="status on-time">정상 운항</p>
+        </div>
+        <div class="gate-info">게이트 A12</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Weather Cards -->
+  <div class="weather-cards" data-aos="fade-up" data-aos-delay="400">
+    <h3>인기 여행지 날씨</h3>
+    <div class="cards">
+      <div class="weather-card" data-aos="fade-right" data-aos-delay="500">
+        <p class="city">서울</p>
+        <p class="temp">26°C</p>
+        <p class="desc">맑음 ☀️</p>
+      </div>
+      <div class="weather-card" data-aos="fade-up" data-aos-delay="600">
+        <p class="city">도쿄</p>
+        <p class="temp">29°C</p>
+        <p class="desc">구름 조금 ⛅</p>
+      </div>
+      <div class="weather-card" data-aos="fade-left" data-aos-delay="700">
+        <p class="city">파리</p>
+        <p class="temp">22°C</p>
+        <p class="desc">비 ☔</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section class="brand-vision-section" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
+  <div class="brand-vision-overlay">
+    <div class="brand-vision-card" data-aos="zoom-out" data-aos-duration="1200" data-aos-easing="ease-in-out">
+      <h2 class="vision-title">Luxury Beyond Travel</h2>
+      <p class="vision-subtitle">
+        단지 이동을 위한 캐리어가 아닌,<br>
+        당신의 라이프스타일과 철학을 담은 오브제.
+      </p>
+      <p class="vision-description">
+        우리는 여행이라는 시간을 더욱 우아하게 만드는<br>
+        디테일과 품격에 집중합니다.<br>
+        렉셔리 캐리어는 단순한 물건이 아닌,<br>
+        당신의 여정을 함께하는 '작은 예술'입니다.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- footer -->
+<footer class="footer-luxury">
+  <div class="footer-container">
+    <div class="footer-logo-area">
+      <img src="./images/FYNNE_LOGO.png" alt="LEXURY 로고" class="footer-logo" width="150">
+      <p class="footer-tagline">Beyond Travel, <br>Beyond Style</p>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#">회사소개</a>
+      <a href="#">이용약관</a>
+      <a href="#">개인정보처리방침</a>
+      <a href="#">고객센터</a>
+    </nav>
+
+    <div class="footer-contact">
+      <address>
+        서울특별시 서초구 서초중앙로 50, 
+      서초빌딩 5층(본사)<br/>
+        Tel: 02-1234-5678<br/>
+        Email: support@lexury.com
+      </address>
+
+      <div class="footer-socials">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+      </div>
+    </div>
+  </div>
+<div class="line"></div>
+  <p class="footer-copy">© 2025 FYNNE Corp. All Rights Reserved.</p>
+
+
+  <div class="footer-carrier-img">
+    <img src="./images/travel.png" alt="고급 캐리어 이미지" />
+  </div>
+</footer>
+
+
+<!-- 위로 가기 버튼 -->
+<button onclick="scrollToTop()" class="scroll-btn top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- 아래로 가기 버튼 -->
+<button onclick="scrollToBottom()" class="scroll-btn bottom">
+  <i class="fas fa-arrow-down"></i>
+</button>
+
+
+
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function scrollToBottom() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+ function toggleContent(element) {
+  const isOpen = element.classList.contains("open");
+  document.querySelectorAll('.magazine-item').forEach(item => item.classList.remove("open"));
+  if (!isOpen) {
+    element.classList.add("open");
+  }
+}
+
+</script>
+
+
+
+
+<!-- <script>
+  window.addEventListener('scroll', () => {
+    const person = document.getElementById('person');
+    const brandStory = document.querySelector('.brand-story');
+    if (!person || !brandStory) return;
+
+    const rect = brandStory.getBoundingClientRect();
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+    // 화면에 브랜드스토리 섹션이 50% 이상 보일 때 실행
+    if (rect.top < windowHeight * 0.75 && rect.bottom > windowHeight * 0.25) {
+      person.classList.add('visible');
+    } else {
+      person.classList.remove('visible');
+    }
+  });
+</script> -->
+
+
+<script>
+  AOS.init({
+    duration: 1200,
+    easing: 'ease-in-out',
+    mirror: true,
+    once: false
+  });
+
+  window.addEventListener('load', () => {
+    AOS.refresh();
+  });
+</script>
+
+
+
+</body>
+</html>

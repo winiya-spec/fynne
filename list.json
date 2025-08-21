@@ -1,0 +1,179 @@
+[
+  {
+    "category": "20~22인치",
+    "products": [
+      {
+        "name": "Compact Lite 20\"",
+        "description": "초경량 디자인으로 편리한 이동성 제공.",
+        "price": 350000,
+        "label": "new"
+      },
+      {
+        "name": "Urban Traveler 21\"",
+        "description": "도심 여행에 최적화된 세련된 디자인.",
+        "price": 420000,
+        "label": ""
+      },
+      {
+        "name": "Jet Setter 22\"",
+        "description": "기내 반입 최적화된 사이즈와 내구성.",
+        "price": 450000,
+        "label": "best"
+      },
+      {
+        "name": "City Explorer 20\"",
+        "description": "도심 여행자를 위한 실용적 디자인.",
+        "price": 380000,
+        "label": ""
+      },
+      {
+        "name": "Mini Voyager 22\"",
+        "description": "컴팩트하지만 넉넉한 수납 공간.",
+        "price": 400000,
+        "label": "sale"
+      },
+      {
+        "name": "Metro Compact 21\"",
+        "description": "가벼운 소재와 튼튼한 구조.",
+        "price": 370000,
+        "label": ""
+      },
+      {
+        "name": "Quick Trip 20\"",
+        "description": "단기 출장 및 여행에 적합한 사이즈.",
+        "price": 360000,
+        "label": ""
+      },
+      {
+        "name": "Flash Carry 22\"",
+        "description": "빠른 이동에 적합한 경량 캐리어.",
+        "price": 390000,
+        "label": ""
+      },
+      {
+        "name": "Easy Glide 21\"",
+        "description": "부드러운 바퀴와 견고한 바디.",
+        "price": 410000,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "category": "24~26인치",
+    "products": [
+      {
+        "name": "Aura Trolley 24\"",
+        "description": "가벼우면서도 내구성 뛰어난 트롤리 캐리어.",
+        "price": 1200000,
+        "label": "best"
+      },
+      {
+        "name": "Vantaggio Carry-On 25\"",
+        "description": "완벽한 스타일과 편리성의 기내 반입 사이즈.",
+        "price": 950000,
+        "label": ""
+      },
+      {
+        "name": "Noble Journey 26\"",
+        "description": "고급 소재와 실용성의 완벽한 조화.",
+        "price": 1300000,
+        "label": "new"
+      },
+      {
+        "name": "Classic Voyager 24\"",
+        "description": "클래식한 디자인과 튼튼한 구조.",
+        "price": 1100000,
+        "label": ""
+      },
+      {
+        "name": "Prestige Glide 25\"",
+        "description": "부드러운 바퀴와 세련된 디자인.",
+        "price": 1150000,
+        "label": ""
+      },
+      {
+        "name": "Urban Elite 26\"",
+        "description": "도심 여행자를 위한 스타일리시한 선택.",
+        "price": 1250000,
+        "label": "sale"
+      },
+      {
+        "name": "Metro Class 24\"",
+        "description": "편리성과 내구성을 모두 갖춘 모델.",
+        "price": 1180000,
+        "label": ""
+      },
+      {
+        "name": "Swift Carry 25\"",
+        "description": "빠른 이동과 견고함을 위한 디자인.",
+        "price": 1050000,
+        "label": ""
+      },
+      {
+        "name": "Elite Voyager 26\"",
+        "description": "최신 기술과 고급 소재가 결합된 모델.",
+        "price": 1350000,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "category": "28인치 이상",
+    "products": [
+      {
+        "name": "Monarch Classic 28\"",
+        "description": "클래식한 디자인과 넉넉한 수납 공간.",
+        "price": 1500000,
+        "label": ""
+      },
+      {
+        "name": "Elite Explorer 30\"",
+        "description": "최신 기술과 고급 소재로 완성된 프리미엄 모델.",
+        "price": 1800000,
+        "label": "best"
+      },
+      {
+        "name": "Grand Voyager 32\"",
+        "description": "장기 여행을 위한 대형 캐리어.",
+        "price": 2000000,
+        "label": ""
+      },
+      {
+        "name": "Supreme Glide 28\"",
+        "description": "부드러운 바퀴와 견고한 바디의 조화.",
+        "price": 1750000,
+        "label": ""
+      },
+      {
+        "name": "Luxury Elite 30\"",
+        "description": "최상급 소재와 디자인의 하이엔드 모델.",
+        "price": 2200000,
+        "label": "new"
+      },
+      {
+        "name": "Voyage Master 28\"",
+        "description": "넉넉한 수납과 스타일을 모두 갖춤.",
+        "price": 1650000,
+        "label": ""
+      },
+      {
+        "name": "Titan Traveler 32\"",
+        "description": "강력한 내구성과 고급 마감 처리.",
+        "price": 2100000,
+        "label": "sale"
+      },
+      {
+        "name": "Royal Classic 30\"",
+        "description": "전통과 현대가 조화된 디자인.",
+        "price": 1900000,
+        "label": ""
+      },
+      {
+        "name": "Prestige Voyager 28\"",
+        "description": "고급스러운 외관과 실용적인 기능성.",
+        "price": 1750000,
+        "label": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+/* 
+   ** 모바일 퍼스트 **
+      => 모바일 퍼스트는 미디어쿼리를 줄여주는 것, 없애는 것이 아님
+      => 모바일을 기본으로 만들고, 필요한 만큼만 min-width 미디어쿼리로 확장
+*/
+
+/* reset */
+a { text-decoration: none; color: inherit; }
+img { vertical-align: top; max-width: 100%; height: auto; }
+
+
+/* 기본 배경 및 레이아웃 */
+#wrap { width: 100%; height: 100vh; box-sizing: border-box; background: rgb(234 80 149 / 15%) url("../images/bg_sm4.jpg") no-repeat center / cover; }
+
+/* header */
+#top { width: 100%; padding: 10px; background-color: rgba(255, 255, 255, 0.3); box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; position: fixed; z-index: 10; }
+#top h1 img { width: 70%; }
+.quick_menu { display: flex; }
+#gnb { display: none; }
+.quick_menu li { padding: 5px; font-size: 20px; color: #666; transition: all .5s; }
+.quick_menu li:hover { color: #ef426f; transform: translate(-2px, -2px); }
+.menu_wrap { background-color: #fff; position: absolute; height: 100vh; top: 0; right: -100%; padding: 50px; z-index: 9999; box-shadow: 0 0 5px #ccc; }
+.m_gnb li { font-weight: bold; color: #999; line-height: 2; letter-spacing: 7px; }
+.submenu { display: none; }
+.submenu li { font-weight: normal; text-indent: 0.5em; font-size: 0.9rem; letter-spacing: 0; }
+.close { font-size: 1.5rem; color: #999; position: absolute; right: 20px; top: 20px; transition: all .2s; }
+.close:hover { transform: scale(1.1); }
+
+/* 콘텐츠 타이틀 공통 */
+.top_txt { padding: 20px; text-align: center; margin: 100px 0 50px; }
+.content h2 { font-size: 20px; background-repeat: no-repeat; background-position: center top; padding-top: 60px; }
+#PRODUCT h2 { background-image: url("../images/playwithetude-icon.png"); }
+.sub_txt { display: none; }
+.more { background-color: #333; display: inline-block; margin: 20px auto 0; padding: 10px 20px; border-radius: 5px; }
+.more:hover { background-color: #ef426f; }
+.more a { color: #fff; font-size: 12px; font-weight: bold; display: block; }
+
+.col_item { width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.col_item img { width: 100%; }
+
+.pro_item { font-size: .9rem; }
+.right_item { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center; }
+.right_item figcaption span { display: block; line-height: 1.4; }
+.right_item figcaption span:first-child { font-weight: bold; }
+
+/* PRODUCT */
+.pro_item { display: grid; grid-template-columns: 1fr; gap: 1rem; font-size: .9rem; }
+.left_item img { width: 100%; }
+.right_item { display: grid; grid-template-columns:repeat(2, 1fr); gap: 0.5rem; }
+.right_item figcaption span:nth-child(1) { margin-bottom: 10px; } 
+.right_item figcaption span:nth-child(2) { display: none; } 
+.right_item figcaption span:nth-child(3) { display: none; } 
+
+
+
+/* GIFT & NEW & EVENT 스타일 공통 */
+#GIFT h2 { background-image: url("../images/forgift-icon.png"); }
+#NEW { background: linear-gradient(45deg, rgb(234 80 149 / 2%), rgb(234 80 149 / 10%), rgb(234 80 149 / 2%)); padding-bottom: 50px; }
+#NEW h2 { background-image: url("../images/newevent-icon.png"); }
+#NEW figure figcaption { padding: 10px; }
+#EVENT h2 { background-image: url("../images/whatsnew-icon.png"); }
+
+/* footer */
+#bottom { margin-top: 100px; padding: 20px; font-size: 14px; display: flex; flex-direction: column; align-items: center; background-color: #eaeaea; }
+.bot_left { order: 2; }
+.fnb { display: none; }
+.copyright { font-size: 0.8em; font-weight: bold; color: #ef426f; margin-bottom: 30px; }
+
+.sns { order: 1; width: 100%; display: flex; justify-content: space-around; font-size: 1.5em; color: #666; margin-bottom: 20px; }
+.sns li a { transition: all 0.5s; }
+.sns li a:hover { color: #ef426f; position: relative; top: -2px; left: -2px; }
+
+/* top 버튼 */
+.totop { font-size: 30px; position: fixed; right: 10px; bottom: 10px; color: #ef426f; z-index: 9999; transition: all .1s; display: none; }
+.totop:hover { transform: rotate(360deg); }
+
+/* 태블릿 */
+@media screen and (min-width: 768px) {
+   #wrap { background: url("../images/bg3.jpg") no-repeat center / cover; }
+   #top { background-color: rgb(255 255 255 / 15%); padding: 30px; }
+   #top h1 img { width: 100%; }
+   .left_wrap { display: flex; gap: 20px; }
+   #gnb { display: block; }
+   #gnb ul { height: 100%; display: flex; align-items: center; }
+   #gnb ul li { padding: 20px 30px; background-color: rgba(255,255,255,0.5); position: relative; }
+   #gnb ul li a { font-weight: bold; color: #666; transition: all 0.1s; }
+   #gnb ul li a:hover { color: #ef426f; }
+   #gnb ul li a:hover::after { content:""; display: block; width: 10px; height: 10px; background-color: #ef426f; border-radius: 5px; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); }
+
+   .quick_menu li { padding: 10px; font-size: 24px; color: #666; transition: all .5s; }
+   .quick_menu li:hover { color: #ef426f; transform: translate(-2px, -2px); }
+
+   /* PRODUCT */
+   .content h2 { font-size: 30px; }
+   .sub_txt { display: block; margin: 20px 0; }
+   .col_item { width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+   .col_item img { width: 100%; }
+   .right_item { grid-template-columns: repeat(2, 1fr); }
+   .right_item figcaption span { font-size: 1em; }
+   .right_item figcaption span:nth-child(1) { margin-bottom: 0; }
+   .right_item figcaption span:nth-child(2) { display: block; } 
+   .right_item figcaption span:nth-child(3) { display: block; } 
+
+   /* bottom */
+   #bottom { flex-direction: row; justify-content: space-between; align-items: center; font-size: 16px; }
+   .bot_left { order:1;  width: 80%; }
+   .fnb { display: block; margin-bottom: 30px; }
+   .fnb li { display: inline; margin-right: 5px; color: #666; }
+   .fnb li a:hover { text-decoration: underline; }
+   .copyright {  margin-bottom: 0; }
+   .sns { order:2; width: 20%; margin-bottom: 0; display: flex; justify-content: center; }
+   .sns li { margin: 0 10px; }
+}
+
+@media screen and (min-width: 1024px) {
+   #wrap { background: url("../images/bg2.jpg") no-repeat center / cover; }
+   /* pc화면에서 높이 짧은 페이지 세로 높이 설정 */
+   #GIFT, #NEW, #EVENT { height: 110vh; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; }
+}
+
+@media screen and (min-width: 1280px) {
+   #wrap { background: url("../images/bg1.jpg") no-repeat center / cover; }
+}
